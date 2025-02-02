@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #394a51;
+}
+p{
+    font-weight: 600;
+}
+#r1{
+    background: #7fa99b;
+}
+table {
+    text-align: center;
+    margin: 20px auto auto auto;
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background: #7fa99b;
+}
+#taskTable  {
+    border: 1px solid black;
+    background: #fdc57b;
+    text-align: center;
+    margin: 0px auto auto auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+tr{
+    border: none;
+    width: 100%;
+}
+.taskList{
+    width: 100%;
+}
+#r1td1{
+    color: #070000;
+    width: 40%;
+}
+#r1td2{
+    width: 40%;
+}
+#r1td3{
+    width: 20%;
+}
+#r1td11{
+    text-align: center;
+    width: 30%;;
+}
+#r1td22{
+    text-align: center;
+    width: 40%;
+    padding-left: 10px;
+}
+#r1td33{
+    width: 20%;
+}
+.taskListNo{
+    width: 10%;
+}
+.taskListName{
+    width: 40%;
+    text-align: left;
+}
+.taskListDate{
+    width: 40%;
+}
+.taskListDelete{
+    width: 10%;
+}
+.taskListNo, .taskListName, .taskListDate, .taskListDelete{
+    color: #394a51;
+}
+.task-heading {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: #7fa99b;
+}
+input{
+    text-align: center;
+    color: #0e0101;
+    width: 93%;
+    height: 30px;
+    border: none;
+    background: #fbf2d5;
+    border-radius: 10px;
+}
+#task-btn{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: rgb(18, 109, 25);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+button:active{
+    opacity: 0.7;
+}
+::placeholder {
+    color: rgb(7, 0, 0);
+    opacity: 1; /* Firefox */
+  }
+.task-checkbox{
+    width: 10%;
+    height: 100%;
+}
+h6{
+    text-align: center;
+}
+#delete-icon{
+    width: 60%;
+    height: 100%;
+}
+.delete-btn{
+    border: none;
+    background: transparent;
+}
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
